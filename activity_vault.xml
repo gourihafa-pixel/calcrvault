@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_vault"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🔒 Calculator Vault"
+        android:textSize="28sp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:paddingTop="32dp"
+        android:paddingBottom="16dp"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnFiles"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="📁  Hide / View Files"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"
+        android:padding="16dp"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnApps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="📦  Mark Apps as Hidden"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"
+        android:padding="16dp"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnSettings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="⚙️  Settings (Change PIN)"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"
+        android:padding="16dp"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnLock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🔐  Lock &amp; Back to Calculator"
+        android:textSize="18sp"
+        android:layout_marginTop="40dp"
+        android:padding="16dp"
+        app:backgroundTint="#B71C1C"
+        xmlns:app="http://schemas.android.com/apk/res-auto"/>
+</LinearLayout>
