@@ -1,0 +1,4 @@
+# Generated local.properties.example — copy to local.properties and edit if needed.
+# Points to local Android SDK (do not commit real local.properties).
+# Example path: sdk.dir=/Users/you/Library/Android/sdk
+sdk.dir=
