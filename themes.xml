@@ -1,0 +1,28 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.CalculatorVault" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/calc_op</item>
+        <item name="colorPrimaryDark">#000000</item>
+        <item name="colorAccent">@color/calc_eq</item>
+        <item name="android:statusBarColor" tools:targetApi="lollipop">#000000</item>
+    </style>
+
+    <style name="CalcBtnBase" parent="Widget.MaterialComponents.Button.UnelevatedButton">
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="cornerRadius">12dp</item>
+    </style>
+    <style name="CalcBtnNum">
+        <item name="android:background">@color/calc_num</item>
+    </style>
+    <style name="CalcBtnFunc">
+        <item name="android:background">@color/calc_func</item>
+    </style>
+    <style name="CalcBtnOp">
+        <item name="android:background">@color/calc_op</item>
+    </style>
+    <style name="CalcBtnEq">
+        <item name="android:background">@color/calc_eq</item>
+    </style>
+</resources>

@@ -1,0 +1,9 @@
+<resources>
+    <color name="calc_bg">#101010</color>
+    <color name="calc_num">#2A2A2A</color>
+    <color name="calc_func">#424242</color>
+    <color name="calc_op">#FF8F00</color>
+    <color name="calc_eq">#FF6F00</color>
+    <color name="vault_grad_start">#1A237E</color>
+    <color name="vault_grad_end">#000000</color>
+</resources>
